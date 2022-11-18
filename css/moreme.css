@@ -1,0 +1,123 @@
+body{
+    color: rgb(18, 83, 62);
+    background-color: rgb(215, 240, 215);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main{
+    margin-left: 160px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+}
+
+
+.worj{
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    border: 8px outset rgb(18, 83, 62);
+}
+
+
+img{
+    border: 3px outset  rgb(97, 182, 97);
+}
+
+
+.sidenav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(18, 83, 62);
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+.sidenav a:link{
+    color: rgb(97, 182, 97);
+    background-color: transparent;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 6px 8px 6px 16px;
+    display: block;
+}
+.sidenav a:visited{
+    color: rgb(97, 182, 97);
+    background-color: transparent;
+    text-decoration: none;
+}
+.sidenav a:hover{
+    color: rgb(142, 236, 142);
+}
+
+
+hr{
+    height: 3px;
+    background-color: rgb(97, 182, 97);
+    border: none;
+}
+
+
+h3{
+    text-decoration: underline;
+}
+
+
+h4{
+    display: block;
+    margin-top: -0.3em;
+    margin-bottom: -0.5em;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+
+figcaption{
+    font-size:15px
+}
+
+.Descriptions{
+    font-size: 25px;
+}
+
+.IndexButton{
+    border: 4px outset rgb(48, 136, 108);
+    margin: auto;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(18, 83, 62);
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+}
+.IndexButton a:link{
+    color: rgb(97, 182, 97);
+    text-decoration: none;
+}
+.IndexButton a:visited{
+    color: rgb(97, 182, 97);
+}
+.IndexButton a:hover{
+    color: rgb(142, 236, 142);
+}
+
+
+a:link{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(111, 179, 111);
+}

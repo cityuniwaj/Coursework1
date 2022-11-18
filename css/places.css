@@ -1,0 +1,111 @@
+body{
+    color: maroon;
+    background-color: rgb(212, 198, 198);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+figcaption{
+    font-size:15px
+}
+
+
+.main{
+    margin-left: 160px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+}
+
+
+.sidenav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: maroon;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+.sidenav a:link{
+    color: rgb(255, 78, 78);
+    background-color: transparent;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 6px 8px 6px 16px;
+    display: block;
+}
+.sidenav a:visited{
+    color: rgb(255, 78, 78);
+    background-color: transparent;
+    text-decoration: none;
+}
+.sidenav a:hover{
+    color: rgb(255, 132, 132);
+}
+
+
+.canada{
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    border: 8px outset maroon;
+}
+
+
+img{
+    border: 3px outset  rgb(255, 78, 78);
+}
+
+
+.IndexButton{
+    border: 4px outset rgb(163, 26, 26);
+    margin: auto;
+    width: 150px;
+    text-align: center;
+    background-color: maroon;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+}
+.IndexButton a:link{
+    color: rgb(255, 78, 78);
+    text-decoration: none;
+}
+.IndexButton a:visited{
+    color: rgb(255, 78, 78);
+}
+.IndexButton a:hover{
+    color: rgb(255, 132, 132);
+}
+
+
+.Descriptions{
+    font-size: 25px;
+}
+
+
+hr{
+    height: 3px;
+    background-color: rgb(255, 78, 78);
+    border: none;
+}
+
+
+a:link{
+    color: crimson;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(206, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(255, 131, 141);
+}

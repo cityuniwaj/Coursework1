@@ -1,0 +1,101 @@
+body{
+    color: rgb(48, 80, 80);
+    background-color: rgb(187, 204, 207);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.sidenav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darkslategrey;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+.sidenav a:link{
+    color: lightslategrey;
+    background-color: transparent;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 6px 8px 6px 16px;
+    display: block;
+}
+.sidenav a:visited{
+    color: lightslategrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+.sidenav a:hover{
+    color: rgb(157, 174, 190)
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    border: 8px outset lightslategrey;
+}
+
+
+.main{
+    margin-left: 160px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+}
+
+
+.Background{
+    font-size: 25px;
+}
+
+
+.IndexButton{
+    border: 4px outset rgb(64, 107, 107);
+    margin: auto;
+    width: 150px;
+    text-align: center;
+    background-color: darkslategrey;
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+}
+.IndexButton a:link{
+    color: lightslategrey;
+    text-decoration: none;
+}
+.IndexButton a:visited{
+    color: lightslategrey;
+}
+.IndexButton a:hover{
+    color: rgb(157, 174, 190)
+}
+
+
+hr{
+    height: 3px;
+    background-color: slategrey;
+    border: none;
+}
+
+
+a:link{
+    color: rgb(49, 99, 121);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(49, 99, 121);
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active{
+    color: rgb(78, 112, 175);
+}
+a:hover{
+    text-decoration: underline;
+}
